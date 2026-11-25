@@ -1,0 +1,2193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* axs_website_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 09:39+0000\n"
+"PO-Revision-Date: 2026-11-25 09:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "%(first)s-%(last)s of %(total)s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "%(pct)s of %(target)s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "%s (copy)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "/shop"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid ""
+"<span class=\"o_stat_text text-success\" invisible=\"not website_published\">Published</span>\n"
+"                                <span class=\"o_stat_text text-muted\" invisible=\"website_published\">Not Published</span>"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__axsync
+msgid "AXSync"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__tile_style__accent
+msgid "Accent bar"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__action_id
+msgid "Action"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__active
+msgid "Active"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Add Item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__backend_menu
+msgid "Add a menu entry that opens this dashboard."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Add an item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Add item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__website_menu
+msgid "Add the dashboard to the website menu."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__none
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__none
+msgid "All Time"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__data_scope__shared
+msgid "All data (shared)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Appearance"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Apply"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Apr"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_search
+msgid "Archived"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__area
+msgid "Area Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Aug"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__refresh_interval
+msgid "Auto Refresh (seconds)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__measure_type__avg
+msgid "Average"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Average Order"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Average Probability"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Back"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Back End"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_search
+msgid "Back End Only"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_kanban
+msgid "Back end"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__group_ids
+msgid "Back-end Access"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__backend_menu
+msgid "Back-end Menu"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__bar
+msgid "Bar Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__berry
+msgid "Berry"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__bolt
+msgid "Bolt"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__box
+msgid "Box"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__building
+msgid "Building"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "CRM Pipeline"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__calendar
+msgid "Calendar"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_import_wizard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_template_wizard_form
+msgid "Cancel"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__cart
+msgid "Cart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__chart
+msgid "Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_search
+msgid "Charts"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__check
+msgid "Check"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Click"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__drill_field_id
+msgid ""
+"Clicking a bar or a slice shows the selected group split by this field."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__clock
+msgid "Clock"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__color
+msgid "Color"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__color
+msgid "Color Index"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__list_field_ids
+msgid "Columns"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__number_format__compact
+msgid "Compact (1.2M)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Companies"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__company_id
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__company_id
+msgid "Company"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__kpi_comparison
+msgid "Compare With"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_config
+msgid "Configuration"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Contacts"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Contacts by Country"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__content
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Content"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__measure_type__count
+msgid "Count"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_template_wizard_form
+msgid "Create Dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model,name:axs_website_dashboard.model_axs_dashboard_template_wizard
+msgid "Create a Dashboard from a Template"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.actions.act_window,name:axs_website_dashboard.action_axs_dashboard_template_wizard
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_templates
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_template_wizard_form
+msgid "Create from Template"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.actions.act_window,help:axs_website_dashboard.action_axs_dashboard
+msgid "Create your first dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__create_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__create_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__create_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__create_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__create_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__create_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__create_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__create_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:res.groups,comment:axs_website_dashboard.group_dashboard_manager
+msgid "Creates, designs and publishes dashboards."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__cumulative
+msgid "Cumulative"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Cumulative Revenue"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__custom
+msgid "Custom Range"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model,name:axs_website_dashboard.model_axs_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__dashboard_id
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_search
+msgid "Dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model,name:axs_website_dashboard.model_axs_dashboard_item
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Dashboard Item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.actions.act_window,name:axs_website_dashboard.action_axs_dashboard_item
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_tree
+msgid "Dashboard Items"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:res.groups,name:axs_website_dashboard.group_dashboard_manager
+msgid "Dashboard Manager"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__name
+msgid "Dashboard Name"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model,name:axs_website_dashboard.model_axs_dashboard_todo
+msgid "Dashboard To-Do"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:res.groups,name:axs_website_dashboard.group_dashboard_user
+msgid "Dashboard User"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.actions.act_window,name:axs_website_dashboard.action_axs_dashboard
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_all
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_root
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.portal_my_home_dashboards
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_tree
+msgid "Dashboards"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Data"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__data_scope
+msgid "Data Shown"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__data_user_id
+msgid "Data User"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__date_field_id
+msgid "Date Field"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__date_filter_mode
+msgid "Date Filter"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__date_field_id
+msgid "Date used by the date filter of the dashboard."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__drill_interval__day
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__group_interval__day
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__series_interval__day
+msgid "Day"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Dec"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__decimals
+msgid "Decimals"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__date_filter
+msgid "Default Period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Departments"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__list_order_desc
+msgid "Descending"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__description
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__description
+msgid "Description"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Display"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__display_name
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__display_name
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__display_name
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__display_name
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__domain
+msgid "Domain"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__done
+msgid "Done"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__doughnut
+msgid "Doughnut Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Download CSV"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Download image"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Drag to move"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Drag to resize"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__drill_field_id
+msgid "Drill Down By"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__drill_field_type
+msgid "Drill Down Type"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__drill_interval
+msgid "Drill Period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Due"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Edit Layout"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Edit item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Edit layout"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__embed_code
+msgid "Embed Code"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Employees"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Employees by Department"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Employees by Job"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__website_visibility__public
+msgid "Everyone"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__number_format__exact
+msgid "Exact value"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Expected Revenue"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Export"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.actions.server,name:axs_website_dashboard.action_axs_dashboard_export
+msgid "Export Dashboards"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Feb"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__file
+msgid "File"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__filename
+msgid "Filename"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__domain
+msgid ""
+"Filter on the records. You can use uid, user, company_id and company_ids, "
+"for example [('user_id', '=', uid)]."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__date_filter_mode__dashboard
+msgid "Follow the dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__forest
+msgid "Forest"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "From"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Full screen"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__gauge
+msgid "Gauge"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__globe
+msgid "Globe"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__grid_h
+msgid "Grid H"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__grid_w
+msgid "Grid W"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__grid_x
+msgid "Grid X"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__grid_y
+msgid "Grid Y"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__group_field_id
+msgid "Group By"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__group_field_type
+msgid "Group By Type"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__show_others
+msgid "Group the rest as Others"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Grouping"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__heart
+msgid "Heart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_tree
+msgid "Height"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__sort_order__value_desc
+msgid "Highest value first"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__hbar
+msgid "Horizontal Bar Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Hot Opportunities"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__id
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__id
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__id
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__id
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__id
+msgid "ID"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__icon
+msgid "Icon"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__date_filter_mode__none
+msgid "Ignore dates"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_import_wizard_form
+msgid "Import"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.actions.act_window,name:axs_website_dashboard.action_axs_dashboard_import_wizard
+#: model:ir.model,name:axs_website_dashboard.model_axs_dashboard_import_wizard
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_import
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_import_wizard_form
+msgid "Import Dashboards"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "Imported Dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Imported Dashboards"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__open_records
+msgid "In the back end, clicking the item opens the matching records."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__number_format__indian
+msgid "Indian (12,34,567)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Individuals"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__data_user_id
+msgid "Internal user whose access rights compute the shared data."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__group_ids
+msgid ""
+"Internal users of these groups can open the dashboard in the back end. Leave"
+" empty for all dashboard users."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Inventory"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__invoice
+msgid "Invoice"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Invoiced"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Invoiced by Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Invoices"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Invoicing"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__item_id
+msgid "Item"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__item_count
+msgid "Item Count"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__item_ids
+#: model:ir.ui.menu,name:axs_website_dashboard.menu_dashboard_items
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_tree
+msgid "Items"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Jan"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Jul"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Jun"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__kpi
+msgid "KPI"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__sort_order__label_asc
+msgid "Label A to Z"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__sort_order__label_desc
+msgid "Label Z to A"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_30_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_30_days
+msgid "Last 30 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_365_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_365_days
+msgid "Last 365 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_7_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_7_days
+msgid "Last 7 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_90_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_90_days
+msgid "Last 90 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_month
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_month
+msgid "Last Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_quarter
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_quarter
+msgid "Last Quarter"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__write_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__write_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__write_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__write_uid
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__write_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_import_wizard__write_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__write_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__write_date
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_week
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_week
+msgid "Last Week"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__last_year
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__last_year
+msgid "Last Year"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Latest Orders"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Leads by Source"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__company_id
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__company_id
+msgid "Leave empty to share the dashboard between companies."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__tile_style__light
+msgid "Light"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__limit
+msgid "Limit"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__line
+msgid "Line Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Links"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__list
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "List"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__show_in_portal
+msgid "List the dashboard on the customer portal home page."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.portal_my_home_dashboards
+msgid "Live figures shared with you"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+msgid "Live figures, always up to date."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_page
+msgid "Loading dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__sort_order__value_asc
+msgid "Lowest value first"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__mail
+msgid "Mail"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__color
+msgid "Main color (hexadecimal), for example #3a6ea5."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Mar"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__measure_type__max
+msgid "Maximum"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__limit
+msgid ""
+"Maximum number of groups (0 = all). The other groups are summed into "
+"'Others'."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "May"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__measure_type
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Measure"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__measure_field_id
+msgid "Measure Field"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__menu_id
+msgid "Menu"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__measure_type__min
+msgid "Minimum"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__model_id
+msgid "Model"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__model_name
+msgid "Model Name"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__money
+msgid "Money"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__mono
+msgid "Monochrome"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__drill_interval__month
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__group_interval__month
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__series_interval__month
+msgid "Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__month_to_date
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__month_to_date
+msgid "Month to Date"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__multiplier
+msgid "Multiplier"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__name
+msgid "Name"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__sort_order__natural
+msgid "Natural order"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "New Contacts"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "New Contacts by Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "New Leads"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Next"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__next_30_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__next_30_days
+msgid "Next 30 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__next_7_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__next_7_days
+msgid "Next 7 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "No"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+msgid "No dashboard is available for you yet."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "No data for this period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "No records"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "No tasks"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__kpi_comparison__none
+msgid "None"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Nov"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__number_format
+msgid "Number Format"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Numbers"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__ocean
+msgid "Ocean"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Oct"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__before_30_days
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__before_30_days
+msgid "Older than 30 Days"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_search
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_tree
+msgid "On Website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_kanban
+msgid "On website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "Only dashboard managers can change the layout."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/controllers/main.py:0
+msgid "Only dashboard managers can update tasks."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Open Dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Open Opportunities"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Open Quotations"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__open_records
+msgid "Open Records"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Open on the website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Open records"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__link_url
+msgid "Opened when a website visitor clicks a tile or a KPI."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:res.groups,comment:axs_website_dashboard.group_dashboard_user
+msgid "Opens the dashboards allowed to their groups in the back end."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Opportunities by Salesperson"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Optional subtitle"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Order"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__list_order_field_id
+msgid "Order By"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Orders"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Others"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__tile_style__outline
+msgid "Outline"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__fixed_date_filter
+msgid "Own Period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__date_filter_mode__fixed
+msgid "Own period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__menu_parent_id
+msgid "Parent Menu"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid ""
+"Paste the embed code in an Embed Code block of any website page to show the\n"
+"                                dashboard there."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Payment Status"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__users
+msgid "People"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__group_interval
+msgid "Period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__user
+msgid "Person"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__phone
+msgid "Phone"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__pie
+msgid "Pie Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__show_percent
+msgid "Pie, doughnut and polar area charts."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Pipeline by Stage"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__polar
+msgid "Polar Area Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__prefix
+msgid "Prefix"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Previous"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__kpi_comparison__previous
+msgid "Previous period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Previous period: %(value)s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Publication"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__publish
+msgid "Publish on the Website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Published"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_published
+msgid "Published on Website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__drill_interval__quarter
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__group_interval__quarter
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__series_interval__quarter
+msgid "Quarter"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__quarter_to_date
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__quarter_to_date
+msgid "Quarter to Date"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__radar
+msgid "Radar Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Ready to Process"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Records"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Refresh"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__refresh_interval
+msgid ""
+"Reload the data automatically. 0 disables it, the minimum is 15 seconds."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__user_id
+msgid "Responsible"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__website_id
+msgid "Restrict the dashboard to one website. Leave empty for all websites."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Revenue"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Revenue by Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Revenue by Salesperson"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__page_size
+msgid "Rows per Page"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__cumulative
+msgid "Running total over the groups (bar, line, area)."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Sales Overview"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__series_field_id
+msgid "Second grouping: one dataset per value (bar, line, area, radar)."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__website_visibility__groups
+msgid "Selected groups"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Sep"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__sequence
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__sequence
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__series_field_id
+msgid "Series"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__series_interval
+msgid "Series Period"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__series_field_type
+msgid "Series Type"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "Settings"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__show_date_filter
+msgid "Show Date Filter"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__show_legend
+msgid "Show Legend"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__show_percent
+msgid "Show Percentages"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__show_values
+msgid "Show Values"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__show_in_portal
+msgid "Show in My Account"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard_item__description
+msgid "Shown under the title."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+msgid "Sign in"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__website_visibility__signed_in
+msgid "Signed-in users"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Size and Position"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__tile_style__solid
+msgid "Solid color"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__sort_order
+msgid "Sort"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__stacked_bar
+msgid "Stacked Bar Chart"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__number_format__standard
+msgid "Standard (1,234,567)"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__star
+msgid "Star"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.actions.act_window,help:axs_website_dashboard.action_axs_dashboard
+msgid ""
+"Start from a template or from scratch, add tiles, KPIs, charts and lists, then publish it on your\n"
+"                website for your customers, partners or team."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__tile_style
+msgid "Style"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__suffix
+msgid "Suffix"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__measure_type__sum
+msgid "Sum"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__theme__sunset
+msgid "Sunset"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__tag
+msgid "Tag"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__target_value
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__target
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__kpi_comparison__target
+msgid "Target"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_todo__name
+msgid "Task"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__todo_ids
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "Tasks"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_template_wizard__template
+msgid "Template"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__text
+msgid "Text"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "The automatic refresh interval cannot be negative."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "The automatic refresh interval must be at least 15 seconds."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The chart '%s' needs a Group By field."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The color must be a hexadecimal value such as #3a6ea5."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "The data user must be an internal user."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "The data user of this dashboard is not available."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The field %s does not exist anymore."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "The file could not be read: %s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The filter of '%s' is not valid: %s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The filter of '%s' must be a list of conditions."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The item '%s' needs a measure field for '%s'."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The item '%s' needs a model."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "The model of this item is not available."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__theme
+msgid "Theme"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__this_month
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__this_month
+msgid "This Month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__this_quarter
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__this_quarter
+msgid "This Quarter"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__this_week
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__this_week
+msgid "This Week"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__this_year
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__this_year
+msgid "This Year"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "This dashboard cannot be displayed."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/controllers/main.py:0
+msgid "This dashboard does not exist anymore."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "This dashboard has no items yet."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "This file is not a dashboard export."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "This item could not be computed: %s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/controllers/main.py:0
+msgid "This task does not exist anymore."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "This template cannot be used with the installed apps."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "This template needs an app that is not installed."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__ticket
+msgid "Ticket"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__tile
+msgid "Tile"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_search
+msgid "Tiles and KPIs"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__name
+msgid "Title"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "To"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__item_type__todo
+msgid "To-Do"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__today
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__today
+msgid "Today"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Top Customers"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Transfers by Status"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Transfers by Type"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__trend
+msgid "Trend"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__trophy
+msgid "Trophy"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__truck
+msgid "Truck"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__item_type
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_search
+msgid "Type"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_import_wizard_form
+msgid ""
+"Upload a file exported with the Export button of a dashboard. Items whose\n"
+"                    app is not installed in this database are skipped."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model,name:axs_website_dashboard.model_res_users
+msgid "User"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__website_group_ids
+msgid ""
+"Users of these groups can see the dashboard on the website (for example "
+"Portal)."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "View on Website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__data_scope__viewer
+msgid "Viewer's data"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,help:axs_website_dashboard.field_axs_dashboard__data_scope
+msgid ""
+"Viewer's data: each visitor sees what their own access rights allow.\n"
+"All data: every visitor sees the figures computed with the access rights of the Data User."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "W%(week)s %(year)s"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/templates.py:0
+msgid "Waiting"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__icon__wallet
+msgid "Wallet"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_id
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "Website"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.module.category,name:axs_website_dashboard.module_category_dashboard
+msgid "Website Dashboard"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_group_ids
+msgid "Website Groups"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard_item__link_url
+msgid "Website Link"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_menu
+msgid "Website Menu"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_menu_id
+msgid "Website Menu Entry"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_url
+msgid "Website Url"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields,field_description:axs_website_dashboard.field_axs_dashboard__website_visibility
+msgid "Website Visibility"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__drill_interval__week
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__group_interval__week
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__series_interval__week
+msgid "Week"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__week_to_date
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__week_to_date
+msgid "Week to Date"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "What this dashboard is about"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_tree
+msgid "Width"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Width and height must be between 1 and 12 columns or rows."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__drill_interval__year
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__group_interval__year
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__series_interval__year
+msgid "Year"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__year_to_date
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__year_to_date
+msgid "Year to Date"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "Yes"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard__date_filter__yesterday
+#: model:ir.model.fields.selection,name:axs_website_dashboard.selection__axs_dashboard_item__fixed_date_filter__yesterday
+msgid "Yesterday"
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/controllers/main.py:0
+#: code:addons/axs_website_dashboard/models/dashboard.py:0
+msgid "You are not allowed to see this dashboard."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-python
+#: code:addons/axs_website_dashboard/models/dashboard_item.py:0
+msgid "You do not have access to this data."
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_item_form
+msgid "e.g. Revenue this month"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_form
+msgid "e.g. Sales Overview"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.view_axs_dashboard_kanban
+msgid "items"
+msgstr ""
+
+#. module: axs_website_dashboard
+#: model_terms:ir.ui.view,arch_db:axs_website_dashboard.dashboard_index
+msgid "to see the dashboards shared with you."
+msgstr ""
+
+#. module: axs_website_dashboard
+#. odoo-javascript
+#: code:addons/axs_website_dashboard/static/src/js/dashboard_engine.js:0
+msgid "vs %(value)s previous period"
+msgstr ""
