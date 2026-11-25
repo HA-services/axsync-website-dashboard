@@ -1,0 +1,10 @@
+id,name,model_id,group_id/id,operation,domain
+access_axs_dashboard_user,axs.dashboard user,axs.dashboard,group_dashboard_user,r,"['|', ('group_ids', '=', False), ('group_ids', 'in', user.all_group_ids.ids)]"
+access_axs_dashboard_manager,axs.dashboard manager,axs.dashboard,group_dashboard_manager,crud,
+access_axs_dashboard_item_user,axs.dashboard.item user,axs.dashboard.item,group_dashboard_user,r,"['|', ('dashboard_id.group_ids', '=', False), ('dashboard_id.group_ids', 'in', user.all_group_ids.ids)]"
+access_axs_dashboard_item_manager,axs.dashboard.item manager,axs.dashboard.item,group_dashboard_manager,crud,
+access_axs_dashboard_todo_user,axs.dashboard.todo user,axs.dashboard.todo,group_dashboard_user,r,
+access_axs_dashboard_todo_manager,axs.dashboard.todo manager,axs.dashboard.todo,group_dashboard_manager,crud,
+access_axs_dashboard_template_wizard,axs.dashboard.template.wizard,axs.dashboard.template.wizard,group_dashboard_manager,crud,
+access_axs_dashboard_import_wizard,axs.dashboard.import.wizard,axs.dashboard.import.wizard,group_dashboard_manager,crud,
+rule_dashboard_company,Dashboards: multi-company,axs.dashboard,,crud,"['|', ('company_id', '=', False), ('company_id', 'in', company_ids)]"
