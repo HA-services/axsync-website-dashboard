@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ================================================================ items -->
+    <record id="view_axs_dashboard_item_form" model="ir.ui.view">
+        <field name="name">axs.dashboard.item.form</field>
+        <field name="model">axs.dashboard.item</field>
+        <field name="arch" type="xml">
+            <form string="Dashboard Item">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name" placeholder="e.g. Revenue this month"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="dashboard_id"/>
+                            <field name="item_type" widget="selection"/>
+                            <field name="model_id" options="{'no_create': True, 'no_open': True}"
+                                   invisible="item_type in ('text', 'todo')"
+                                   required="item_type not in ('text', 'todo')"/>
+                            <field name="model_name" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="description" placeholder="Optional subtitle"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Data" name="data" invisible="item_type in ('text', 'todo')">
+                            <group>
+                                <group string="Records">
+                                    <field name="domain" widget="domain" options="{'model': 'model_name', 'in_dialog': True}"
+                                           invisible="not model_id"/>
+                                    <field name="date_field_id" options="{'no_create': True, 'no_open': True}"/>
+                                    <field name="date_filter_mode" invisible="not date_field_id"/>
+                                    <field name="fixed_date_filter" invisible="date_filter_mode != 'fixed'"/>
+                                </group>
+                                <group string="Measure">
+                                    <field name="measure_type"/>
+                                    <field name="measure_field_id" options="{'no_create': True, 'no_open': True}"
+                                           invisible="measure_type == 'count'"
+                                           required="measure_type != 'count'"/>
+                                    <field name="multiplier"/>
+                                </group>
+                            </group>
+                            <group invisible="item_type in ('tile', 'kpi', 'gauge')">
+                                <group string="Grouping">
+                                    <field name="group_field_id" options="{'no_create': True, 'no_open': True}"
+                                           required="item_type in ('bar', 'hbar', 'stacked_bar', 'line', 'area', 'pie', 'doughnut', 'polar', 'radar')"/>
+                                    <field name="group_field_type" invisible="1"/>
+                                    <field name="group_interval" invisible="group_field_type not in ('date', 'datetime')"/>
+                                    <field name="series_field_id" options="{'no_create': True, 'no_open': True}"
+                                           invisible="item_type not in ('bar', 'hbar', 'stacked_bar', 'line', 'area', 'radar')"/>
+                                    <field name="series_field_type" invisible="1"/>
+                                    <field name="series_interval" invisible="series_field_type not in ('date', 'datetime')"/>
+                                    <field name="drill_field_id" options="{'no_create': True, 'no_open': True}"
+                                           invisible="item_type in ('list', 'tile', 'kpi', 'gauge')"/>
+                                    <field name="drill_field_type" invisible="1"/>
+                                    <field name="drill_interval" invisible="drill_field_type not in ('date', 'datetime')"/>
+                                </group>
+                                <group string="Order">
+                                    <field name="sort_order"/>
+                                    <field name="limit"/>
+                                    <field name="show_others" invisible="item_type == 'list'"/>
+                                </group>
+                            </group>
+                            <group string="List" invisible="item_type != 'list'">
+                                <field name="list_field_ids" widget="many2many_tags" options="{'no_create': True}"
+                                       invisible="group_field_id"/>
+                                <field name="list_order_field_id" options="{'no_create': True, 'no_open': True}"
+                                       invisible="group_field_id"/>
+                                <field name="list_order_desc" invisible="group_field_id"/>
+                                <field name="page_size" invisible="group_field_id"/>
+                            </group>
+                        </page>
+                        <page string="Display" name="display">
+                            <group>
+                                <group string="Numbers" invisible="item_type in ('text', 'todo')">
+                                    <field name="number_format"/>
+                                    <field name="decimals"/>
+                                    <field name="currency_id" options="{'no_create': True, 'no_open': True}"/>
+                                    <field name="prefix"/>
+                                    <field name="suffix"/>
+                                </group>
+                                <group string="Appearance">
+                                    <field name="color" widget="color"/>
+                                    <field name="icon" invisible="item_type not in ('tile', 'kpi')"/>
+                                    <field name="tile_style" invisible="item_type not in ('tile', 'kpi')"/>
+                                    <field name="kpi_comparison" invisible="item_type != 'kpi'"/>
+                                    <field name="target_value" invisible="item_type in ('tile', 'list', 'todo', 'text', 'pie', 'doughnut', 'polar')"/>
+                                    <field name="show_values" invisible="item_type not in ('bar', 'hbar', 'stacked_bar', 'line', 'area', 'pie', 'doughnut', 'polar', 'radar')"/>
+                                    <field name="show_legend" invisible="item_type not in ('bar', 'hbar', 'stacked_bar', 'line', 'area', 'pie', 'doughnut', 'polar', 'radar')"/>
+                                    <field name="show_percent" invisible="item_type not in ('pie', 'doughnut', 'polar')"/>
+                                    <field name="cumulative" invisible="item_type not in ('bar', 'line', 'area')"/>
+                                </group>
+                            </group>
+                            <group>
+                                <group string="Click">
+                                    <field name="open_records" invisible="item_type in ('text', 'todo')"/>
+                                    <field name="link_url" placeholder="/shop" invisible="item_type not in ('tile', 'kpi', 'gauge', 'text')"/>
+                                </group>
+                                <group string="Size and Position">
+                                    <field name="grid_w"/>
+                                    <field name="grid_h"/>
+                                    <field name="grid_x"/>
+                                    <field name="grid_y"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Tasks" name="todo" invisible="item_type != 'todo'">
+                            <field name="todo_ids">
+                                <tree editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="done"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Content" name="content" invisible="item_type != 'text'">
+                            <field name="content"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_axs_dashboard_item_tree" model="ir.ui.view">
+        <field name="name">axs.dashboard.item.tree</field>
+        <field name="model">axs.dashboard.item</field>
+        <field name="arch" type="xml">
+            <tree string="Dashboard Items">
+                <field name="sequence" widget="handle"/>
+                <field name="dashboard_id"/>
+                <field name="name"/>
+                <field name="item_type"/>
+                <field name="model_id"/>
+                <field name="measure_type"/>
+                <field name="group_field_id"/>
+                <field name="grid_w" string="Width"/>
+                <field name="grid_h" string="Height"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_axs_dashboard_item_search" model="ir.ui.view">
+        <field name="name">axs.dashboard.item.search</field>
+        <field name="model">axs.dashboard.item</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="dashboard_id"/>
+                <field name="model_id"/>
+                <filter name="charts" string="Charts" domain="[('item_type', 'in', ['bar', 'hbar', 'stacked_bar', 'line', 'area', 'pie', 'doughnut', 'polar', 'radar'])]"/>
+                <filter name="tiles" string="Tiles and KPIs" domain="[('item_type', 'in', ['tile', 'kpi', 'gauge'])]"/>
+                <group>
+                    <filter name="group_dashboard" string="Dashboard" context="{'group_by': 'dashboard_id'}"/>
+                    <filter name="group_type" string="Type" context="{'group_by': 'item_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_axs_dashboard_item" model="ir.actions.act_window">
+        <field name="name">Dashboard Items</field>
+        <field name="res_model">axs.dashboard.item</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{'search_default_group_dashboard': 1}</field>
+    </record>
+
+    <!-- ================================================================ dashboards -->
+    <record id="view_axs_dashboard_form" model="ir.ui.view">
+        <field name="name">axs.dashboard.form</field>
+        <field name="model">axs.dashboard</field>
+        <field name="arch" type="xml">
+            <form string="Dashboard">
+                <header>
+                    <button name="action_open_dashboard" type="object" string="Open Dashboard" class="btn-primary"/>
+                    <button name="action_view_website" type="object" string="View on Website" invisible="not website_published"/>
+                    <button name="action_export" type="object" string="Export"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_items" type="object" class="oe_stat_button" icon="fa-th-large">
+                            <field name="item_count" widget="statinfo" string="Items"/>
+                        </button>
+                        <button name="action_toggle_published" type="object" class="oe_stat_button" icon="fa-globe">
+                            <div class="o_stat_info">
+                                <span class="o_stat_text text-success" invisible="not website_published">Published</span>
+                                <span class="o_stat_text text-muted" invisible="website_published">Not Published</span>
+                            </div>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <field name="active" invisible="1"/>
+                    <field name="website_published" invisible="1"/>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name" placeholder="e.g. Sales Overview"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="description" placeholder="What this dashboard is about"/>
+                            <field name="theme"/>
+                            <field name="user_id"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                        </group>
+                        <group>
+                            <field name="date_filter"/>
+                            <field name="show_date_filter"/>
+                            <field name="refresh_interval"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Items" name="items">
+                            <field name="item_ids" context="{'default_dashboard_id': id}">
+                                <tree>
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="item_type"/>
+                                    <field name="model_id"/>
+                                    <field name="measure_type"/>
+                                    <field name="group_field_id"/>
+                                    <field name="grid_w" string="Width"/>
+                                    <field name="grid_h" string="Height"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Website" name="website">
+                            <group>
+                                <group string="Publication">
+                                    <field name="website_published" string="Published"/>
+                                    <field name="website_visibility" widget="radio"/>
+                                    <field name="website_group_ids" widget="many2many_tags"
+                                           invisible="website_visibility != 'groups'"/>
+                                    <field name="website_id" options="{'no_create': True}" groups="website.group_multi_website"/>
+                                    <field name="website_menu"/>
+                                    <field name="show_in_portal"/>
+                                </group>
+                                <group string="Data">
+                                    <field name="data_scope" widget="radio"/>
+                                    <field name="data_user_id" invisible="data_scope != 'shared'"
+                                           required="data_scope == 'shared'"/>
+                                </group>
+                            </group>
+                            <group string="Links" invisible="not id">
+                                <field name="website_url" widget="url" readonly="1"/>
+                                <field name="embed_code" readonly="1" widget="CopyClipboardChar"/>
+                            </group>
+                            <div class="text-muted" invisible="not id">
+                                Paste the embed code in an Embed Code block of any website page to show the
+                                dashboard there.
+                            </div>
+                        </page>
+                        <page string="Back End" name="backend">
+                            <group>
+                                <group>
+                                    <field name="group_ids" widget="many2many_tags"/>
+                                    <field name="backend_menu"/>
+                                    <field name="menu_parent_id" invisible="not backend_menu"
+                                           required="backend_menu"/>
+                                    <field name="sequence"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_axs_dashboard_tree" model="ir.ui.view">
+        <field name="name">axs.dashboard.tree</field>
+        <field name="model">axs.dashboard</field>
+        <field name="arch" type="xml">
+            <tree string="Dashboards">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="item_count" string="Items"/>
+                <field name="theme"/>
+                <field name="website_published" string="On Website"/>
+                <field name="website_visibility"/>
+                <field name="data_scope"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_axs_dashboard_kanban" model="ir.ui.view">
+        <field name="name">axs.dashboard.kanban</field>
+        <field name="model">axs.dashboard</field>
+        <field name="arch" type="xml">
+            <kanban class="o_axs_dashboard_kanban" action="action_open_dashboard" type="object">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="item_count"/>
+                <field name="theme"/>
+                <field name="website_published"/>
+                <field name="color"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click o_axs_dashboard_card o_axs_theme_#{record.theme.raw_value}">
+                            <div class="o_axs_dashboard_card_band"/>
+                            <div class="o_axs_dashboard_card_body">
+                                <strong class="fs-5"><field name="name"/></strong>
+                                <div class="text-muted small mt-1"><field name="description"/></div>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="small"><t t-out="record.item_count.raw_value"/> items</span>
+                                    <span t-if="record.website_published.raw_value" class="badge rounded-pill text-bg-success">On website</span>
+                                    <span t-else="" class="badge rounded-pill text-bg-light">Back end</span>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_axs_dashboard_search" model="ir.ui.view">
+        <field name="name">axs.dashboard.search</field>
+        <field name="model">axs.dashboard</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter name="published" string="On Website" domain="[('website_published', '=', True)]"/>
+                <filter name="not_published" string="Back End Only" domain="[('website_published', '=', False)]"/>
+                <separator/>
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_axs_dashboard" model="ir.actions.act_window">
+        <field name="name">Dashboards</field>
+        <field name="res_model">axs.dashboard</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create your first dashboard</p>
+            <p>Start from a template or from scratch, add tiles, KPIs, charts and lists, then publish it on your
+                website for your customers, partners or team.</p>
+        </field>
+    </record>
+
+    <!-- ================================================================ wizards -->
+    <record id="view_axs_dashboard_template_wizard_form" model="ir.ui.view">
+        <field name="name">axs.dashboard.template.wizard.form</field>
+        <field name="model">axs.dashboard.template.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Create from Template">
+                <group>
+                    <field name="template" widget="radio"/>
+                    <field name="name"/>
+                    <field name="publish"/>
+                </group>
+                <footer>
+                    <button name="action_create" type="object" string="Create Dashboard" class="btn-primary"/>
+                    <button special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_axs_dashboard_template_wizard" model="ir.actions.act_window">
+        <field name="name">Create from Template</field>
+        <field name="res_model">axs.dashboard.template.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record id="view_axs_dashboard_import_wizard_form" model="ir.ui.view">
+        <field name="name">axs.dashboard.import.wizard.form</field>
+        <field name="model">axs.dashboard.import.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Import Dashboards">
+                <p class="text-muted">Upload a file exported with the Export button of a dashboard. Items whose
+                    app is not installed in this database are skipped.</p>
+                <group>
+                    <field name="file" filename="filename"/>
+                    <field name="filename" invisible="1"/>
+                </group>
+                <footer>
+                    <button name="action_import" type="object" string="Import" class="btn-primary"/>
+                    <button special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_axs_dashboard_import_wizard" model="ir.actions.act_window">
+        <field name="name">Import Dashboards</field>
+        <field name="res_model">axs.dashboard.import.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record id="action_axs_dashboard_export" model="ir.actions.server">
+        <field name="name">Export Dashboards</field>
+        <field name="model_id" ref="model_axs_dashboard"/>
+        <field name="binding_model_id" ref="model_axs_dashboard"/>
+        <field name="state">code</field>
+        <field name="code">action = records.action_export()</field>
+    </record>
+
+    <!-- ================================================================ menus -->
+    <menuitem id="menu_dashboard_root" name="Dashboards" sequence="45"
+              web_icon="axs_website_dashboard,static/description/icon.png"
+              groups="group_dashboard_user"/>
+    <menuitem id="menu_dashboard_all" name="Dashboards" parent="menu_dashboard_root" sequence="1"
+              action="action_axs_dashboard"/>
+    <menuitem id="menu_dashboard_config" name="Configuration" parent="menu_dashboard_root" sequence="90"
+              groups="group_dashboard_manager"/>
+    <menuitem id="menu_dashboard_items" name="Items" parent="menu_dashboard_config" sequence="1"
+              action="action_axs_dashboard_item"/>
+    <menuitem id="menu_dashboard_templates" name="Create from Template" parent="menu_dashboard_config" sequence="2"
+              action="action_axs_dashboard_template_wizard"/>
+    <menuitem id="menu_dashboard_import" name="Import Dashboards" parent="menu_dashboard_config" sequence="3"
+              action="action_axs_dashboard_import_wizard"/>
+</odoo>

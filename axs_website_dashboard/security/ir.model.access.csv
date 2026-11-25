@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_axs_dashboard_user,axs.dashboard user,model_axs_dashboard,group_dashboard_user,1,0,0,0
+access_axs_dashboard_manager,axs.dashboard manager,model_axs_dashboard,group_dashboard_manager,1,1,1,1
+access_axs_dashboard_item_user,axs.dashboard.item user,model_axs_dashboard_item,group_dashboard_user,1,0,0,0
+access_axs_dashboard_item_manager,axs.dashboard.item manager,model_axs_dashboard_item,group_dashboard_manager,1,1,1,1
+access_axs_dashboard_todo_user,axs.dashboard.todo user,model_axs_dashboard_todo,group_dashboard_user,1,0,0,0
+access_axs_dashboard_todo_manager,axs.dashboard.todo manager,model_axs_dashboard_todo,group_dashboard_manager,1,1,1,1
+access_axs_dashboard_template_wizard,axs.dashboard.template.wizard,model_axs_dashboard_template_wizard,group_dashboard_manager,1,1,1,1
+access_axs_dashboard_import_wizard,axs.dashboard.import.wizard,model_axs_dashboard_import_wizard,group_dashboard_manager,1,1,1,1

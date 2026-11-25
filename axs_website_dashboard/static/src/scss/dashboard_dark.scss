@@ -1,0 +1,16 @@
+// Dark mode of the back end.
+.o_axs_dashboard {
+    --axs-card: #262a36;
+    --axs-text: #e5e7eb;
+    --axs-muted: #9ca3af;
+    --axs-border: rgba(255, 255, 255, 0.08);
+    --axs-grid-line: #3a3f4d;
+    --axs-shadow: none;
+}
+.o_axs_dashboard_action, .o_axs_dashboard:fullscreen {
+    background: #1b1e27;
+}
+.o_axs_dashboard_card {
+    background: #262a36;
+    border-color: rgba(255, 255, 255, 0.08);
+}
